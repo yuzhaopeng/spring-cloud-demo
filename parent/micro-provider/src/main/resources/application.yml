@@ -1,8 +1,8 @@
 spring:
   application:
-    name: micro-consumer
+    name: micro-provider
 server:
-  port: 8111
+  port: 8112
 
 eureka:
   client:

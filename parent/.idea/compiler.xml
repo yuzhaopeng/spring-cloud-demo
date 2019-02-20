@@ -9,6 +9,7 @@
         <module name="demo" />
         <module name="eureka-server" />
         <module name="micro-consumer" />
+        <module name="micro-provider" />
         <module name="parent" />
       </profile>
     </annotationProcessing>
