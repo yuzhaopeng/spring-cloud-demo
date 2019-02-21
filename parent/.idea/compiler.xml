@@ -11,6 +11,7 @@
         <module name="micro-consumer" />
         <module name="micro-provider" />
         <module name="parent" />
+        <module name="zuul-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

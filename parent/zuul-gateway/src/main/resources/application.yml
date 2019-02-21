@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: zuul-gateway
+
+server:
+  port: 80
+
+zuul:
+  routes:
+    api-a:
+      path: /micro-consumer/**   #匹配后转发至某服务
+      service-id: micro-consumer
+      sensitive-header:
+
+    api-b:
+      path: /baidu/**    #转发至具体的url
+      url: http://www.baidu.com
+  host:
+    connect-timeout-millis: 30000 #网关超时时间
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@localhost:8080/eureka/
