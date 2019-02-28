@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/micro-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/micro-provider/pom.xml" />
         <option value="$PROJECT_DIR$/zuul-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-maven/pom.xml" />
       </list>
     </option>
   </component>
