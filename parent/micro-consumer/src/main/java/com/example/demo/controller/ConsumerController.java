@@ -17,7 +17,7 @@ public class ConsumerController {
     private ProviderFeign providerFeign;
 
     @RequestMapping("/hello")
-    public String hello(){
+    public String hello() {
         //服务提供者的访问地址
         //注意！ 此处使用服务名代替了ip:port
         String providerUrl = "http://micro-provider/provider/hello";
@@ -26,7 +26,7 @@ public class ConsumerController {
     }
 
     @RequestMapping("/feign/hello")
-    public String helloFeign(){
+    public String helloFeign() {
         return providerFeign.hello();
     }
 }
