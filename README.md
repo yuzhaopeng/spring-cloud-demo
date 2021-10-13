@@ -7,3 +7,10 @@
 5. [微服务系列(5)-使用SpringCloud的zuul网关实现过滤](https://blog.csdn.net/zhaopeng_yu/article/details/87924141)
 
 update
+
+### 后续计划
+1. 替换使用nacos作为注册中心和配置中心
+2. 替换gateway 作为网关
+3. 加入熔断逻辑
+4. 引入feign组件
+5. 添加监控组件
